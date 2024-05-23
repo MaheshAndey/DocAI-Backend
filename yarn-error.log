@@ -1,0 +1,56 @@
+Arguments: 
+  /usr/local/bin/node /Users/sundar.g/.yarn/bin/yarn.js add mangoose
+
+PATH: 
+  /Users/sundar.g/.yarn/bin:/Users/sundar.g/.config/yarn/global/node_modules/.bin:/Users/sundar.g/opt/anaconda3/bin:/Users/sundar.g/opt/anaconda3/condabin:/opt/homebrew/bin:/opt/homebrew/sbin:/Library/Frameworks/Python.framework/Versions/3.10/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin
+
+Yarn version: 
+  1.22.19
+
+Node version: 
+  16.14.2
+
+Platform: 
+  darwin arm64
+
+Trace: 
+  Error: https://registry.yarnpkg.com/mangoose: Not found
+      at Request.params.callback [as _callback] (/Users/sundar.g/.yarn/lib/cli.js:66145:18)
+      at Request.self.callback (/Users/sundar.g/.yarn/lib/cli.js:140890:22)
+      at Request.emit (node:events:526:28)
+      at Request.<anonymous> (/Users/sundar.g/.yarn/lib/cli.js:141862:10)
+      at Request.emit (node:events:526:28)
+      at IncomingMessage.<anonymous> (/Users/sundar.g/.yarn/lib/cli.js:141784:12)
+      at Object.onceWrapper (node:events:645:28)
+      at IncomingMessage.emit (node:events:538:35)
+      at endReadableNT (node:internal/streams/readable:1345:12)
+      at processTicksAndRejections (node:internal/process/task_queues:83:21)
+
+npm manifest: 
+  {
+    "name": "express-server",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1",
+      "start": "node server.js",
+      "watch": "nodemon server.js"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+      "cors": "^2.8.5",
+      "express": "^4.18.1"
+    },
+    "devDependencies": {
+      "nodemon": "^2.0.16"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
